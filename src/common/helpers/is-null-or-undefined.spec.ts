@@ -21,7 +21,7 @@ describe("Application", () => {
       });
 
       it("Should return false if input has value", () => {
-        const data = faker.random.word();
+        const data = faker.lorem.word();
         const expected = false;
         const result = isNullOrUndefined(data);
 
