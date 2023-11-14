@@ -31,4 +31,7 @@ module.exports = {
     "!**/handlers.ts",
     "!**/dotenv.init.ts",
   ],
+  // roots: ["<rootDir>"],
+  // moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths, { prefix: __dirname }),
+  // modulePaths: ["<rootDir>"],
 };
